@@ -1,49 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="21" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61246" started-at="2018-01-11T17:15:26Z" finished-at="2018-01-11T17:16:27Z">
+  <suite name="Learning TestNG concepts" duration-ms="435837" started-at="2018-01-18T16:23:49Z" finished-at="2018-01-18T16:31:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61246" started-at="2018-01-11T17:15:26Z" finished-at="2018-01-11T17:16:27Z">
-      <class name="testNGBasics.GoogleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="setUp" is-config="true" duration-ms="17102" started-at="2018-01-11T23:00:26Z" finished-at="2018-01-11T23:00:43Z">
+    <test name="Different testing features" duration-ms="435837" started-at="2018-01-18T16:23:49Z" finished-at="2018-01-18T16:31:05Z">
+      <class name="testNGFeatures.ExecutingTestUsingXML">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="setUp" is-config="true" duration-ms="134412" started-at="2018-01-18T22:08:53Z" finished-at="2018-01-18T22:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="googleTitleTest()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="googleTitleTest" duration-ms="116" started-at="2018-01-11T23:00:43Z" finished-at="2018-01-11T23:00:43Z">
+        <test-method status="PASS" signature="googleLogo()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="googleLogo" duration-ms="5723" started-at="2018-01-18T22:11:08Z" finished-at="2018-01-18T22:11:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="tearDown" is-config="true" duration-ms="6229" started-at="2018-01-11T23:00:43Z" finished-at="2018-01-11T23:00:50Z">
+        </test-method> <!-- googleLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="tearDown" is-config="true" duration-ms="62644" started-at="2018-01-18T22:11:13Z" finished-at="2018-01-18T22:12:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="setUp" is-config="true" duration-ms="12331" started-at="2018-01-11T23:00:50Z" finished-at="2018-01-11T23:01:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="setUp" is-config="true" duration-ms="39275" started-at="2018-01-18T22:12:16Z" finished-at="2018-01-18T22:12:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoTest()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="logoTest" duration-ms="399" started-at="2018-01-11T23:01:02Z" finished-at="2018-01-11T23:01:02Z">
+        <test-method status="PASS" signature="googleTitle()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="googleTitle" duration-ms="1374" started-at="2018-01-18T22:12:55Z" finished-at="2018-01-18T22:12:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="tearDown" is-config="true" duration-ms="4707" started-at="2018-01-11T23:01:02Z" finished-at="2018-01-11T23:01:07Z">
+        </test-method> <!-- googleTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="tearDown" is-config="true" duration-ms="10987" started-at="2018-01-18T22:12:57Z" finished-at="2018-01-18T22:13:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="setUp" is-config="true" duration-ms="14819" started-at="2018-01-11T23:01:07Z" finished-at="2018-01-11T23:01:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="setUp" is-config="true" duration-ms="46699" started-at="2018-01-18T22:13:08Z" finished-at="2018-01-18T22:13:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="mailLinkTest()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="mailLinkTest" duration-ms="207" started-at="2018-01-11T23:01:22Z" finished-at="2018-01-11T23:01:22Z">
+        <test-method status="PASS" signature="print()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="print" duration-ms="2" started-at="2018-01-18T22:13:54Z" finished-at="2018-01-18T22:13:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mailLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGBasics.GoogleTest@acaea5]" name="tearDown" is-config="true" duration-ms="5182" started-at="2018-01-11T23:01:22Z" finished-at="2018-01-11T23:01:27Z">
+        </test-method> <!-- print -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFeatures.ExecutingTestUsingXML@132ec19]" name="tearDown" is-config="true" duration-ms="10433" started-at="2018-01-18T22:13:54Z" finished-at="2018-01-18T22:14:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testNGBasics.GoogleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testNGFeatures.ExecutingTestUsingXML -->
+      <class name="testNGFeatures.TestNGFeatures">
+        <test-method status="PASS" signature="login()[pri:0, instance:testNGFeatures.TestNGFeatures@e45eb6]" name="login" duration-ms="500" started-at="2018-01-18T22:14:09Z" finished-at="2018-01-18T22:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="home()[pri:0, instance:testNGFeatures.TestNGFeatures@e45eb6]" name="home" duration-ms="110" started-at="2018-01-18T22:14:10Z" depends-on-methods="testNGFeatures.TestNGFeatures.login" finished-at="2018-01-18T22:14:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method status="PASS" signature="search()[pri:0, instance:testNGFeatures.TestNGFeatures@e45eb6]" name="search" duration-ms="1430" started-at="2018-01-18T22:14:10Z" depends-on-methods="testNGFeatures.TestNGFeatures.login" finished-at="2018-01-18T22:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testNGFeatures.TestNGFeatures -->
+      <class name="testNGFeatures.InvocationCountTest">
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="141" started-at="2018-01-18T22:14:05Z" finished-at="2018-01-18T22:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="496" started-at="2018-01-18T22:14:05Z" finished-at="2018-01-18T22:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="881" started-at="2018-01-18T22:14:05Z" finished-at="2018-01-18T22:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="440" started-at="2018-01-18T22:14:06Z" finished-at="2018-01-18T22:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="812" started-at="2018-01-18T22:14:07Z" finished-at="2018-01-18T22:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="1130" started-at="2018-01-18T22:14:07Z" finished-at="2018-01-18T22:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="42" started-at="2018-01-18T22:14:09Z" finished-at="2018-01-18T22:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="56" started-at="2018-01-18T22:14:09Z" finished-at="2018-01-18T22:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="107" started-at="2018-01-18T22:14:09Z" finished-at="2018-01-18T22:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:testNGFeatures.InvocationCountTest@c4039c]" name="sum" duration-ms="158" started-at="2018-01-18T22:14:09Z" finished-at="2018-01-18T22:14:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- testNGFeatures.InvocationCountTest -->
+      <class name="testNGFeatures.ExceptionTimeOutTest">
+        <test-method status="FAIL" signature="infiniteLoop()[pri:0, instance:testNGFeatures.ExceptionTimeOutTest@653222]" name="infiniteLoop" duration-ms="2090" started-at="2018-01-18T22:08:49Z" finished-at="2018-01-18T22:08:51Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infiniteLoop -->
+        <test-method status="PASS" signature="infiniteLoop1()[pri:0, instance:testNGFeatures.ExceptionTimeOutTest@653222]" name="infiniteLoop1" duration-ms="2053" started-at="2018-01-18T22:08:51Z" finished-at="2018-01-18T22:08:53Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:289)
+	at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:246)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:667)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- infiniteLoop1 -->
+      </class> <!-- testNGFeatures.ExceptionTimeOutTest -->
+      <class name="testNGFeatures.TestValidation">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="setUp" is-config="true" duration-ms="30531" started-at="2018-01-18T22:14:11Z" finished-at="2018-01-18T22:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleLogo()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="googleLogo" duration-ms="3602" started-at="2018-01-18T22:14:42Z" finished-at="2018-01-18T22:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="tearDown" is-config="true" duration-ms="9265" started-at="2018-01-18T22:14:45Z" finished-at="2018-01-18T22:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="setUp" is-config="true" duration-ms="19381" started-at="2018-01-18T22:14:55Z" finished-at="2018-01-18T22:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleTitle()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="googleTitle" duration-ms="1000" started-at="2018-01-18T22:15:14Z" finished-at="2018-01-18T22:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGFeatures.TestValidation@1efef64]" name="tearDown" is-config="true" duration-ms="4168" started-at="2018-01-18T22:15:15Z" finished-at="2018-01-18T22:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNGFeatures.TestValidation -->
+      <class name="parametersInTestNG.ParametersInTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:parametersInTestNG.ParametersInTestNG@17fd0e6]" name="setUp" is-config="true" duration-ms="23591" started-at="2018-01-18T22:15:19Z" finished-at="2018-01-18T22:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:parametersInTestNG.ParametersInTestNG@17fd0e6]" name="login" duration-ms="19474" started-at="2018-01-18T22:15:43Z" finished-at="2018-01-18T22:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[padmapriya31995@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:parametersInTestNG.ParametersInTestNG@17fd0e6]" name="tearDown" is-config="true" duration-ms="2468" started-at="2018-01-18T22:16:02Z" finished-at="2018-01-18T22:16:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parametersInTestNG.ParametersInTestNG -->
+    </test> <!-- Different testing features -->
+  </suite> <!-- Learning TestNG concepts -->
 </testng-results>

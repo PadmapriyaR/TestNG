@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Learning TestNG concepts">
+	<test name="Different testing features">
+	
+		<parameter name="emailID" value="padmapriya31995@gmail.com"></parameter>
+		
+		<classes>
+			<class name="testNGFeatures.ExceptionTimeOutTest"></class>
+			<class name="testNGFeatures.ExecutingTestUsingXML"></class>
+			<class name="testNGFeatures.InvocationCountTest"></class>
+			<class name="testNGFeatures.TestNGFeatures"></class>
+			<class name="testNGFeatures.TestValidation"></class>
+			<class name="parametersInTestNG.ParametersInTestNG"/>
+		</classes>
+	</test>
+</suite>
+
+<!-- Note:
+		name given in the <parameter> tag is called Environment variable. 
+ -->

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNGBasics.GoogleTest">
+      <class name="testNGFeatures.TestValidation">
         <methods>
-          <include name="setUp"/>
+          <include name="googleLogo"/>
           <include name="tearDown"/>
-          <include name="googleTitleTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testNGBasics.GoogleTest -->
+      </class> <!-- testNGFeatures.TestValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
